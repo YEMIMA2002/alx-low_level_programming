@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 always
  */
+
 int main(void)
 {
-	printf("with proper grammar,but the outcome is a piece of art,\n");
+	char Grammar[60] = "with proper grammar, but the outcome is a piece of art,";
+
+	printf("%s\n", Grammar);
 
 	return (0);
 
